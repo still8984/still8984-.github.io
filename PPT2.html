@@ -1,79 +1,28 @@
 <!doctype html><!-- PPT2.html -->
-<html>
-
-
-<head>
-<meta charset="utf-8"/>
-<meta name="viewport" content="width=device-width, initial-scale=1"/>
-
+<html><head>
+<meta charset="utf-8"/><meta name="viewport" content="width=device-width, initial-scale=1"/>
 <style>
 
-body{
-    margin:0;
-}
+body{ margin:0;
+a{text-decoration: : none;color:white;}
+.LA{display: flex;justify-content: space-between;align-items: center;background-color:#2EFEF7}
+.LA_logo{font-size:24px;color:white;}
+.LA_menu{ display:flex; list-style:none; padding-left:0;}
 
-a{
-    text-decoration: : none;
-    color:white;
-}
-.LA{
-display: flex;
-justify-content: space-between;
-align-items: center;
-background-color:#2EFEF7
-}
+.LA_menu li {padding:8px 12px;}
 
-.LA_logo{
-    font-size:24px;
-    color:white;
-}
+.LA_menu li:hover{background-color:#d49466;border-radius: 4px;}
 
-.LA_menu{
-    display:flex;
-    list-style:none;
-    padding-left:0;
-}
+.LA_links{list-style:none;color:white;display:flex;padding-left:0;}
 
-.LA_menu li {
-    padding:8px 12px;
-}
-
-.LA_menu li:hover{
-    background-color:#d49466;
-    border-radius: 4px;
-}
-
-.LA_links{
-    list-style:none;
-    color:white;
-    display:flex;
-    padding-left:0;
-}
-
-.LA_links li {
-    padding: 8px 12px;
-}
+.LA_links li {padding: 8px 12px;}
 
 @media screen and (max-width: 768px){
-    .LA{
-        flex-direction: : colum;;
-        align-items: flex-start;
-        padding: 8px 24px;
-    }
-    .LA_menu{
-        flex-direction: : colum;
-        align-items:center;
-        width:100%;
-    }
-    .navbar_menuli {
-        width:100%;
-        text-align:center;
-    }
+    .LA{flex-direction: : colum; align-items: flex-start;padding: 8px 24px;}
+    .LA_menu{flex-direction: : colum; align-items:center;width:100%;}
+    .navbar_menuli {width:100%; text-align:center;}
 
-    .LA_links{
-        justify-content: :center;
-        width:100%;
-    }
+    .LA_links{justify-content: :center; width:100%;}
 }
 
 </style>
